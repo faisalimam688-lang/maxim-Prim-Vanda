@@ -1,0 +1,10 @@
+{
+  "name": "FC-MAXIM MUKHTAR Livestock",
+  "short_name": "FC-MAXIM",
+  "description": "FC-MAXIM MUKHTAR livestock business and WhatsApp contact",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fbfcf5",
+  "theme_color": "#176b3a",
+  "icons": []
+}

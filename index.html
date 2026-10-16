@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#176b3a">
+<meta name="description" content="FC-MAXIM MUKHTAR livestock business — contact us on WhatsApp.">
+<link rel="manifest" href="manifest.json">
+<title>FC-MAXIM MUKHTAR | Livestock</title>
+<style>
+:root{--green:#176b3a;--deep:#0b3f27;--lime:#c8df66;--cream:#fbfcf5;--ink:#173126}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,"Noto Nastaliq Urdu",sans-serif}
+header{background:linear-gradient(135deg,var(--deep),var(--green));color:white;padding:18px 5vw 44px}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:1100px;margin:auto}
+.brand{font-weight:900;letter-spacing:.5px;font-size:clamp(18px,3vw,25px)}.brand span{display:block;color:var(--lime);font-size:12px;letter-spacing:2px;margin-top:4px}
+.actions{display:flex;gap:8px;align-items:center}.lang,.menu{border:1px solid #ffffff66;background:#ffffff14;color:white;padding:9px 12px;border-radius:10px;cursor:pointer;font-weight:700}
+.hero{max-width:1100px;margin:38px auto 0;display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+.eyebrow{color:var(--lime);font-weight:800;letter-spacing:2px;font-size:12px}.hero h1{font-size:clamp(34px,6vw,62px);line-height:1.05;margin:12px 0}.hero p{font-size:18px;line-height:1.7;color:#e1eee5;max-width:580px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:13px 18px;border-radius:12px;text-decoration:none;font-weight:800;border:0;cursor:pointer}.primary{background:#25d366;color:#063d22}.secondary{background:#ffffff17;color:white;border:1px solid #ffffff55}
+.cardphoto{width:100%;max-height:330px;object-fit:cover;border-radius:22px;border:5px solid #ffffff25;box-shadow:0 20px 50px #001b1066}
+main{max-width:1100px;margin:auto;padding:42px 5vw}.sectionhead{text-align:center;margin-bottom:24px}.sectionhead .eyebrow{color:var(--green)}h2{font-size:clamp(26px,4vw,38px);margin:9px 0}.sectionhead p{color:#5c7165;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tile{background:white;border:1px solid #e3ebdf;border-radius:18px;padding:23px;box-shadow:0 8px 24px #123d1b08}.tile .ico{font-size:27px}.tile h3{margin:12px 0 8px}.tile p{line-height:1.65;color:#617367;margin:0}
+.contact{margin-top:36px;background:#eaf3df;border-radius:24px;padding:30px;display:flex;align-items:center;justify-content:space-between;gap:20px}.contact p{line-height:1.6;color:#4b6555}.number{font-size:clamp(20px,4vw,30px);font-weight:900;letter-spacing:.4px}
+footer{background:#092f1d;color:#d6e6d9;padding:25px 5vw;text-align:center;font-size:13px}.urdu{direction:rtl;font-family:Arial,"Noto Nastaliq Urdu",sans-serif}.hide{display:none!important}
+@media(max-width:760px){.hero{grid-template-columns:1fr;margin-top:28px}.cardphoto{max-height:230px}.grid{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column}header{padding-bottom:32px}.brand{font-size:17px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="brand">FC-MAXIM MUKHTAR<span id="tagline">LIVESTOCK • TRUST • CARE</span></div>
+<div class="actions"><button class="lang" id="langBtn" onclick="toggleLang()">اردو</button></div>
+</nav>
+<div class="hero">
+<div id="enHero">
+<div class="eyebrow">YOUR LIVESTOCK CONNECTION</div>
+<h1>Good care.<br>Trusted livestock.</h1>
+<p>Welcome to FC-MAXIM MUKHTAR. Contact us directly for livestock business information and enquiries. We’re just one WhatsApp message away.</p>
+<div class="ctas"><a class="btn primary" href="https://wa.me/923036707598?text=Assalam-o-Alaikum%2C%20I%20would%20like%20to%20ask%20about%20your%20livestock%20business." target="_blank" rel="noopener">☏ Chat on WhatsApp</a><a class="btn secondary" href="tel:+923036707598">Call 0303-6707598</a></div>
+</div>
+<div id="urHero" class="urdu hide">
+<div class="eyebrow">آپ کے مویشی کاروبار کا قابلِ اعتماد رابطہ</div>
+<h1>بہتر دیکھ بھال،<br>قابلِ اعتماد مویشی</h1>
+<p>FC-MAXIM MUKHTAR میں خوش آمدید۔ مویشیوں کے کاروبار سے متعلق معلومات اور رابطے کے لیے ہمیں براہِ راست پیغام بھیجیں۔</p>
+<div class="ctas"><a class="btn primary" href="https://wa.me/923036707598?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%DB%8C%DA%A9%D9%85%D8%8C%20%D9%85%D8%AC%DA%BE%DB%92%20%D8%A2%D9%BE%20%DA%A9%DB%92%20%D9%85%D9%88%DB%8C%D8%B4%DB%8C%20%DA%A9%D8%A7%D8%B1%D9%88%D8%A8%D8%A7%D8%B1%20%DA%A9%DB%92%20%D8%A8%D8%A7%D8%B1%DB%92%20%D9%85%DB%8C%DA%BA%20%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%20%D8%AF%D8%B1%DA%A9%D8%A7%D8%B1%20%DB%81%DB%8C%DA%BA%DB%94" target="_blank" rel="noopener">☏ واٹس ایپ پر رابطہ</a><a class="btn secondary" href="tel:+923036707598">کال کریں: 0303-6707598</a></div>
+</div>
+<div><img class="cardphoto" src="visiting-card.jpg" alt="Original FC-MAXIM MUKHTAR visiting card"></div>
+</div>
+</header>
+<main>
+<section class="sectionhead"><div class="eyebrow" id="aboutEyebrow">ABOUT OUR BUSINESS</div><h2 id="aboutTitle">A direct, personal connection</h2><p id="aboutText">Get in touch for business details, livestock enquiries and more information. We’ll be happy to hear from you.</p></section>
+<div class="grid" id="enTiles">
+<article class="tile"><div class="ico">🐄</div><h3>Livestock business</h3><p>Contact us to discuss your livestock needs and business enquiries.</p></article>
+<article class="tile"><div class="ico">🤝</div><h3>Personal service</h3><p>A simple, direct way to speak with FC-MAXIM MUKHTAR.</p></article>
+<article class="tile"><div class="ico">💬</div><h3>WhatsApp contact</h3><p>Send a message any time and start a conversation with us.</p></article>
+</div>
+<div class="grid hide" id="urTiles">
+<article class="tile urdu"><div class="ico">🐄</div><h3>مویشیوں کا کاروبار</h3><p>مویشیوں اور کاروباری معلومات کے لیے رابطہ کریں۔</p></article>
+<article class="tile urdu"><div class="ico">🤝</div><h3>براہِ راست رابطہ</h3><p>FC-MAXIM MUKHTAR سے آسانی سے بات کریں۔</p></article>
+<article class="tile urdu"><div class="ico">💬</div><h3>واٹس ایپ رابطہ</h3><p>پیغام بھیجیں اور گفتگو شروع کریں۔</p></article>
+</div>
+<section class="contact"><div><div class="eyebrow" style="color:#176b3a" id="contactEyebrow">LET’S TALK</div><h2 id="contactTitle">Contact FC-MAXIM MUKHTAR</h2><p id="contactText">Tap WhatsApp to send a message. WhatsApp must be active on this number for chat to open successfully.</p><div class="number">0303-6707598</div></div><a class="btn primary" href="https://wa.me/923036707598" target="_blank" rel="noopener">☏ WhatsApp</a></section>
+</main>
+<footer>© <span id="year"></span> FC-MAXIM MUKHTAR · <span id="footerText">Livestock business contact</span></footer>
+<script>
+let urdu=false;
+function toggleLang(){
+ urdu=!urdu;
+ document.getElementById('langBtn').textContent=urdu?'English':'اردو';
+ document.getElementById('enHero').classList.toggle('hide',urdu);
+ document.getElementById('urHero').classList.toggle('hide',!urdu);
+ document.getElementById('enTiles').classList.toggle('hide',urdu);
+ document.getElementById('urTiles').classList.toggle('hide',!urdu);
+ const t=urdu?{
+ aboutEyebrow:'ہمارے کاروبار کے بارے میں',aboutTitle:'براہِ راست اور ذاتی رابطہ',aboutText:'کاروباری معلومات اور مویشیوں سے متعلق پوچھ گچھ کے لیے رابطہ کریں۔ آپ کے پیغام کا خیرمقدم ہے۔',
+ contactEyebrow:'آئیے بات کریں',contactTitle:'FC-MAXIM MUKHTAR سے رابطہ',contactText:'پیغام بھیجنے کے لیے واٹس ایپ پر کلک کریں۔ چیٹ کھلنے کے لیے اس نمبر پر واٹس ایپ فعال ہونا ضروری ہے۔',footerText:'مویشی کاروبار رابطہ'
+ }:{
+ aboutEyebrow:'ABOUT OUR BUSINESS',aboutTitle:'A direct, personal connection',aboutText:'Get in touch for business details, livestock enquiries and more information. We’ll be happy to hear from you.',
+ contactEyebrow:'LET’S TALK',contactTitle:'Contact FC-MAXIM MUKHTAR',contactText:'Tap WhatsApp to send a message. WhatsApp must be active on this number for chat to open successfully.',footerText:'Livestock business contact'
+ };
+ Object.keys(t).forEach(k=>document.getElementById(k).textContent=t[k]);
+ document.documentElement.lang=urdu?'ur':'en';
+}
+document.getElementById('year').textContent=new Date().getFullYear();
+if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+</script>
+</body></html>
